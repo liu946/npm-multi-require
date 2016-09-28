@@ -1,5 +1,5 @@
 {
-  "name": "multi-require",
+  "name": "dir-require",
   "version": "1.0.0",
   "description": "require modules by dir",
   "main": "index.js",
