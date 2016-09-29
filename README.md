@@ -2,7 +2,7 @@
 ## Install
 
 ```console
-$ npm install --save multi-require
+$ npm install --save dir-require
 ```
 
 
@@ -21,7 +21,7 @@ require other modules in index.js when the file tree is like
 your js code in index.js
 
 ```js
-const models = require('multi-require').load(__dirname, {ignore: 'index.js'}); // 1st argument is absolute path
+const models = require('dir-require').load(__dirname, {ignore: 'index.js'}); // 1st argument is absolute path
 
 /*
 You will get
@@ -34,7 +34,7 @@ models = {
 ```
 
 ```js
-const models = require('multi-require').loadArray(__dirname, {ignore: 'index.js'});
+const models = require('dir-require').loadArray(__dirname, {ignore: 'index.js'});
 
 /*
 You will get
