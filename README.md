@@ -14,7 +14,7 @@ $ npm install --save dir-require
 ```
 
 
-## Usage
+## Examples
 
 require other modules in index.js when the file tree is like
 
@@ -51,10 +51,36 @@ models = [require('testModule1'), require('testModule2')];
 */
 ```
 
+## Usage
+
+```js
+const moduleLoader = require('dir-require');
+
+moduleLoader.load(dirpath, options);
+moduleLoader.loadArray(dirpath, options);
+```
+
+#### dirpath
+
+should be absolute path.
+
+#### options.match
+
+- String (only load this file)
+- Array of String (only load files in array)
+- Regx (load files match regx)
+
+#### options.ignore
+
+- String
+- Array of String
+- Regx
+- if options.match is set options.ignore is no use.
+
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [liu946](https://liu946.github.io)
 
 [travis-url]: https://travis-ci.org/liu946/npm-multi-require
 [travis-image]: https://travis-ci.org/liu946/npm-multi-require.svg?branch=master
