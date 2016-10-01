@@ -1,4 +1,11 @@
 
+# dir-require
+---
+> Require a directory of js modules.
+
+[![Coverage Status](https://coveralls.io/repos/github/liu946/npm-multi-require/badge.svg?branch=master)](https://coveralls.io/github/liu946/npm-multi-require?branch=master)
+
+
 ## Install
 
 ```console
