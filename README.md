@@ -3,8 +3,9 @@
 ---
 > Require a directory of js modules.
 
-[![Coverage Status](https://coveralls.io/repos/github/liu946/npm-multi-require/badge.svg?branch=master)](https://coveralls.io/github/liu946/npm-multi-require?branch=master)
-
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![license MIT][license-image]][license-url]
 
 ## Install
 
@@ -54,3 +55,12 @@ models = [require('testModule1'), require('testModule2')];
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)
+
+[travis-url]: https://travis-ci.org/liu946/npm-multi-require
+[travis-image]: https://travis-ci.org/liu946/npm-multi-require.svg?branch=master
+
+[coveralls-url]: https://coveralls.io/github/liu946/npm-multi-require?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/liu946/npm-multi-require/badge.svg?branch=master
+
+[license-url]: https://opensource.org/licenses/MIT
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
